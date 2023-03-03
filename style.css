@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Tilt+Warp&display=swap');
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+}
+
+h1{
+    font-weight: bold;
+}
+
+.destaquetitulo{
+    color: blueviolet;
+
+}
+
+.container{
+    margin: 10% 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.container__conteudo{
+    width: 650px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container__conteudo__titulo{
+    font-size: 33px;
+    font-family: 'Tilt Warp', cursive;;
+}
+
+.container__conteudo__links{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.container__conteudo__links__estilo{
+    background-color: aquamarine;
+    width: 280px;
+    font-size: 24px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 5px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.imagem{
+    border-width: 10px; 
+    border-style: double; 
+    border-color: gray; 
+}
