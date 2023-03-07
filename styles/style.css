@@ -6,17 +6,32 @@ body{
     color:white;
 }
 
-h1{
+.cabecalho{
+    padding: 2% 0% 0% 25%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 50px;
+}
+
+.cabecalho__menu__direcinamentos{
+    font-family: 'Tilt Warp', cursive;
+    color: aqua;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.h1{
     font-weight: bold;
 }
 
 .destaquetitulo{
     color: blueviolet;
-
 }
 
 .container{
-    margin: 15% 25%;
+    padding: 10% 25%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -71,14 +86,13 @@ h1{
     padding: 10px;
 }
 
-.footer{
+.rodape{
     display: flex;
     justify-content: center;
     background-color: aqua;
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Tilt Warp', cursive;;
     font-size: 20px;
-    font-weight: bold;
     padding: 20px;
 }
 
@@ -87,3 +101,4 @@ h1{
     border-style: double; 
     border-color: gray; 
 }
+
