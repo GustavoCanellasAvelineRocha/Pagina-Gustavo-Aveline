@@ -40,6 +40,9 @@ h1{
     display: flex;
     justify-content: space-between;
     margin: 2%;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
 }
 
 .container__conteudo__links__estilo{
