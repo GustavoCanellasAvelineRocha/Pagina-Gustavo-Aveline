@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Tilt+Warp&display=swap');
 
 body{
-    height: 100vh;
     box-sizing: border-box;
     background-color: black;
     color:white;
@@ -17,7 +16,7 @@ h1{
 }
 
 .container{
-    margin: 10% 25%;
+    margin: 15% 25%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -36,6 +35,12 @@ h1{
     font-family: 'Tilt Warp', cursive;;
 }
 
+.container__conteudo__links__titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
 .container__conteudo__links{
     display: flex;
     justify-content: space-between;
@@ -46,16 +51,35 @@ h1{
 }
 
 .container__conteudo__links__estilo{
-    background-color: aquamarine;
-    width: 280px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #22D4FD;
+    width: 380px;
     font-size: 24px;
+    font-weight: 600;
     text-align: center;
-    border-radius: 10px;
-    padding: 5px;
-    color: black;
+    border-radius: 8px;
+    padding: 20px 0;
+    color: white;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
+}
+
+.container__conteudo__links__estilo:hover{
+    background-color: gray;
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     font-weight: bold;
+    padding: 20px;
 }
 
 .imagem{
