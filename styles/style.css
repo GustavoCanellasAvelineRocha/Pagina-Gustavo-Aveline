@@ -26,6 +26,8 @@ body{
     font-weight: bold;
 }
 
+/* Inicio Pagina home */
+
 .destaquetitulo{
     color: blueviolet;
 }
@@ -85,6 +87,16 @@ body{
     background-color: gray;
     padding: 10px;
 }
+
+/* final Pagina home */
+
+/* inicio Pagina sobre mim */
+
+/* final Pagina sobre mim */
+
+/* inicio Pagina Curriculo*/
+
+/* final Pagina Curriculo*/
 
 .rodape{
     display: flex;
