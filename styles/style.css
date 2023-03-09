@@ -2,8 +2,17 @@
 
 body{
     box-sizing: border-box;
-    background-color: black;
-    color:white;
+    background-color: var(--cor-principal);
+    color:var(--cor-texto-principal);
+
+}
+
+:root{
+    --cor-principal: #3C4048;
+    --cor-texto-principal: white;
+    --cor-secundaria: #ADDDD0;
+    --cor-de-destaque: #00ABB3;
+    --cor-do-holver: gray;
 }
 
 .cabecalho{
@@ -17,19 +26,19 @@ body{
 
 .cabecalho__menu__direcinamentos{
     font-family: 'Tilt Warp', cursive;
-    color: aqua;
+    color: var(--cor-secundaria);
     font-size: 20px;
     text-decoration: none;
 }
 
-.h1{
+/* Inicio Pagina home */
+
+h1,h2,h3{
     font-weight: bold;
 }
 
-/* Inicio Pagina home */
-
 .destaquetitulo{
-    color: blueviolet;
+    color: var(--cor-de-destaque);
 }
 
 .container{
@@ -71,38 +80,28 @@ body{
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-secundaria);
     width: 380px;
     font-size: 24px;
     font-weight: 600;
     text-align: center;
     border-radius: 8px;
     padding: 20px 0;
-    color: white;
+    color: var(--cor-texto-principal);
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
 
 .container__conteudo__links__estilo:hover{
-    background-color: gray;
+    background-color: var(--cor-do-holver);
     padding: 25px;
 }
-
-/* final Pagina home */
-
-/* inicio Pagina sobre mim */
-
-/* final Pagina sobre mim */
-
-/* inicio Pagina Curriculo*/
-
-/* final Pagina Curriculo*/
 
 .rodape{
     display: flex;
     justify-content: center;
-    background-color: aqua;
-    color: black;
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
     font-family: 'Tilt Warp', cursive;;
     font-size: 20px;
     padding: 20px;
@@ -111,6 +110,5 @@ body{
 .imagem{
     border-width: 10px; 
     border-style: double; 
-    border-color: gray; 
+    border-color: var(--cor-secundaria); 
 }
-
