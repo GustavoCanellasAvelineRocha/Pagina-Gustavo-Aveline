@@ -135,4 +135,8 @@ h1,h2,h3{
     .aparencia__conteudo{
         width: auto;
     }
+
+    .aparencia__conteudo__links__estilo:hover{
+        background-color: var(--cor-do-holver);
+    }
 }
