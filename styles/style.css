@@ -138,5 +138,6 @@ h1,h2,h3{
 
     .aparencia__conteudo__links__estilo:hover{
         background-color: var(--cor-do-holver);
+        padding: 20px 0;
     }
 }
