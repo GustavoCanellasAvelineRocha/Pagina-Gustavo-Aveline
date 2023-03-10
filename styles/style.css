@@ -27,7 +27,7 @@ body{
 .cabecalho__menu__direcinamentos{
     font-family: 'Tilt Warp', cursive;
     color: var(--cor-secundaria);
-    font-size: 20px;
+    font-size: 1.25rem;
     text-decoration: none;
 }
 
@@ -41,14 +41,15 @@ h1,h2,h3{
     color: var(--cor-de-destaque);
 }
 
-.container{
+.aparencia{
     padding: 10% 25%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-.container__conteudo{
+.aparencia__conteudo{
+    width: 50%;
     width: 650px;
     font-family: 'Montserrat', sans-serif;
     display: flex;
@@ -56,18 +57,18 @@ h1,h2,h3{
     gap: 30px;
 }
 
-.container__conteudo__titulo{
-    font-size: 33px;
+.aparencia__conteudo__titulo{
+    font-size: 2rem;
     font-family: 'Tilt Warp', cursive;;
 }
 
-.container__conteudo__links__titulo{
+.aparencia__conteudo__links__titulo{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
-.container__conteudo__links{
+.aparencia__conteudo__links{
     display: flex;
     justify-content: space-between;
     margin: 2%;
@@ -76,13 +77,13 @@ h1,h2,h3{
     gap: 24px;
 }
 
-.container__conteudo__links__estilo{
+.aparencia__conteudo__links__estilo{
     display: flex;
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-secundaria);
     width: 380px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
     border-radius: 8px;
@@ -92,7 +93,7 @@ h1,h2,h3{
     text-decoration: none;
 }
 
-.container__conteudo__links__estilo:hover{
+.aparencia__conteudo__links__estilo:hover{
     background-color: var(--cor-do-holver);
     padding: 25px;
 }
@@ -103,11 +104,12 @@ h1,h2,h3{
     background-color: var(--cor-secundaria);
     color: var(--cor-principal);
     font-family: 'Tilt Warp', cursive;;
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 20px;
 }
 
 .imagem{
+    width: 30%;
     border-width: 10px; 
     border-style: double; 
     border-color: var(--cor-secundaria); 
