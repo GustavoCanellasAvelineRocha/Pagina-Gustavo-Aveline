@@ -43,7 +43,7 @@ h1,h2,h3{
 
 .aparencia{
     padding: 10% 25%;
-    gap: 80px;
+    gap: 4rem;
     display: flex;
     flex-direction: row;
     align-items: center;
