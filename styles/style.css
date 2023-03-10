@@ -43,11 +43,13 @@ h1,h2,h3{
 
 .aparencia{
     padding: 10% 25%;
+    gap: 80px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
+
 .aparencia__conteudo{
     width: 50%;
     width: 650px;
@@ -109,8 +111,28 @@ h1,h2,h3{
 }
 
 .imagem{
-    width: 30%;
+    width: 50%;
     border-width: 10px; 
     border-style: double; 
     border-color: var(--cor-secundaria); 
+}
+
+@media (max-width: 1200px)
+{
+    .cabecalho{
+        padding: 8%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    
+    .aparencia{
+        padding: 5%;
+        flex-direction: column;
+    }
+
+    .aparencia__conteudo{
+        width: auto;
+    }
 }
