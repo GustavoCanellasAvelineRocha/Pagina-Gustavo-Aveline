@@ -117,8 +117,7 @@ h1,h2,h3{
     border-color: var(--cor-secundaria); 
 }
 
-@media (max-width: 1200px)
-{
+@media (max-width: 1200px){
     .cabecalho{
         padding: 8%;
     }
@@ -140,4 +139,8 @@ h1,h2,h3{
         background-color: var(--cor-do-holver);
         padding: 20px 0;
     }
+}
+
+ul {
+    list-style-type: square;
 }
