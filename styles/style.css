@@ -90,6 +90,7 @@ h1,h2,h3{
     text-align: center;
     border-radius: 8px;
     padding: 20px 0;
+    margin: 5px 0;
     color: var(--cor-texto-principal);
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
@@ -98,6 +99,7 @@ h1,h2,h3{
 .aparencia__conteudo__links__estilo:hover{
     background-color: var(--cor-do-holver);
     padding: 25px;
+    margin: 0;
 }
 
 .rodape{
@@ -133,6 +135,10 @@ h1,h2,h3{
 
     .aparencia__conteudo{
         width: auto;
+    }
+
+    .aparencia__conteudo__links__estilo{
+        margin: 0;
     }
 
     .aparencia__conteudo__links__estilo:hover{
