@@ -66,6 +66,10 @@ h1,h2,h3{
     text-align:justify;
 }
 
+.aparencia__conteudo__paragrafo{
+    text-align: justify;
+}
+
 .aparencia__conteudo__links__titulo{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
@@ -145,10 +149,6 @@ h1,h2,h3{
 
     .aparencia__conteudo__titulo{
         text-align:center;
-    }
-
-    .aparencia__conteudo__paragrafo{
-        text-align: justify;
     }
 
     .aparencia__conteudo__links__estilo{
