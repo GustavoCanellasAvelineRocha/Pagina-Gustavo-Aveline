@@ -147,6 +147,10 @@ h1,h2,h3{
         text-align:center;
     }
 
+    .aparencia__conteudo__paragrafo{
+        text-align: justify;
+    }
+
     .aparencia__conteudo__links__estilo{
         margin: 0;
     }
