@@ -144,7 +144,7 @@ h1,h2,h3{
     }
 
     .aparencia__conteudo__titulo{
-        text-align:start;
+        text-align:end;
     }
 
     .aparencia__conteudo__links__estilo{
