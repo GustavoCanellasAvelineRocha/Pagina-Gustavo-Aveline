@@ -143,6 +143,10 @@ h1,h2,h3{
         width: auto;
     }
 
+    .aparencia__conteudo__titulo{
+        text-align: none;
+    }
+
     .aparencia__conteudo__links__estilo{
         margin: 0;
     }
