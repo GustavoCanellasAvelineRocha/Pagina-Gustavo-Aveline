@@ -16,7 +16,7 @@ body{
 }
 
 .cabecalho{
-    padding: 2% 25% 0% 25%;
+    padding: 2% 0% 0% 0%;
 }
 
 .cabecalho__menu{
@@ -144,7 +144,7 @@ h1,h2,h3{
     }
 
     .aparencia__conteudo__titulo{
-        text-align:left;
+        text-align:center;
     }
 
     .aparencia__conteudo__links__estilo{
