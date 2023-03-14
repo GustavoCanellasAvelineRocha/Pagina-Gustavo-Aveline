@@ -16,11 +16,12 @@ body{
 }
 
 .cabecalho{
-    padding: 2% 0% 0% 25%;
+    padding: 2% 25% 0% 25%;
 }
 
 .cabecalho__menu{
     display: flex;
+    justify-content: center;
     gap: 50px;
 }
 
@@ -61,7 +62,8 @@ h1,h2,h3{
 
 .aparencia__conteudo__titulo{
     font-size: 2rem;
-    font-family: 'Tilt Warp', cursive;;
+    font-family: 'Tilt Warp', cursive;
+    text-align:justify;
 }
 
 .aparencia__conteudo__links__titulo{
@@ -100,6 +102,10 @@ h1,h2,h3{
     background-color: var(--cor-do-holver);
     padding: 25px;
     margin: 0;
+}
+
+.textoSobreMim{
+    text-align: justify;
 }
 
 .rodape{
