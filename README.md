@@ -1,2 +1,2 @@
 # Pagina-Gustavo-Aveline
-projeto html e css de uma pagina sobre mim.
+Projeto de criação de uma Pagina em HTML e CSS sobre mim, com minhas redes sociais, um pequeno texto sobre mim e meu curriculo.
