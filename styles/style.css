@@ -104,8 +104,6 @@ h1,h2,h3{
 
 .aparencia__conteudo__links__estilo:hover{
     background-color: var(--cor-do-holver);
-    padding: 25px;
-    margin: 0;
 }
 
 .textoSobreMim{
@@ -129,7 +127,7 @@ h1,h2,h3{
     border-color: var(--cor-secundaria); 
 }
 
-@media (max-width: 1200px){
+@media screen and (max-width: 1200px) {
     .cabecalho{
         padding: 8%;
     }
@@ -158,6 +156,13 @@ h1,h2,h3{
     .aparencia__conteudo__links__estilo:hover{
         background-color: var(--cor-do-holver);
         padding: 20px 0;
+    }
+
+}
+
+@media screen and (max-width: 428px) {
+    .imagem{
+        width: 100%;
     }
 }
 
