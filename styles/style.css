@@ -162,7 +162,7 @@ h1,h2,h3{
 
 @media screen and (max-width: 428px) {
     .imagem{
-        width: 100%;
+        width: 80%;
     }
 }
 
