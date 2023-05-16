@@ -32,8 +32,6 @@ body{
     text-decoration: none;
 }
 
-/* Inicio Pagina home */
-
 h1,h2,h3{
     font-weight: bold;
 }
@@ -60,14 +58,26 @@ h1,h2,h3{
     gap: 30px;
 }
 
+.conteudo__curriculo{
+    gap: 10px;
+}
+
 .aparencia__conteudo__titulo{
     font-size: 2rem;
     font-family: 'Tilt Warp', cursive;
-    text-align:justify;
+    text-align: justify;
 }
 
 .aparencia__conteudo__paragrafo{
     text-align: justify;
+}
+
+.lista{
+    padding: 0;
+}
+
+.lista__item{
+    padding-top: 0.5em;
 }
 
 .aparencia__conteudo__links__titulo{
@@ -109,6 +119,7 @@ h1,h2,h3{
 
 .textoSobreMim{
     text-align: justify;
+    line-height: 1.5;
 }
 
 .rodape{
@@ -122,10 +133,16 @@ h1,h2,h3{
 }
 
 .imagem{
-    width: 50%;
+    width: 60%;
     border-width: 10px; 
     border-style: double; 
     border-color: var(--cor-secundaria); 
+}
+
+@media screen and (max-width: 1800px) {
+    .aparencia__conteudo__habilidades{
+        text-align: left;
+    }
 }
 
 @media screen and (max-width: 1200px) {
