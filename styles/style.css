@@ -133,7 +133,7 @@ h1,h2,h3{
 }
 
 .imagem{
-    min-width: 60%;
+    min-width: 50%;
     border-width: 10px; 
     border-style: double; 
     border-color: var(--cor-secundaria); 
